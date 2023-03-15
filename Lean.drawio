@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="ebFmLZ4dN5Hxq-1kurqI" name="Page-1">
+        <mxGraphModel dx="749" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Заказ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Код парсера" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Исправление ошибок/детализация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ТЗ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="110" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Ответ менеджера" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="110" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Сдача заказа&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="110" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="110" as="sourcePoint"/>
+                        <mxPoint x="200" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="120" as="sourcePoint"/>
+                        <mxPoint x="150" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="80" as="sourcePoint"/>
+                        <mxPoint x="250" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="250" y="110" as="sourcePoint"/>
+                        <mxPoint x="300" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Заказ - от клиента поступает заказ(хочет следить за работой(всеми комитами), надо объяснять работу гит)&lt;br&gt;ТЗ - менеджер дает нам ТЗ (не всегда качественное)&lt;br&gt;Код парсера - много фун-ций схожи(легко запутаться)&lt;br&gt;Ответ менеджера - пользуемся почтой&amp;nbsp;&lt;br&gt;Проработка кода - исправление ошибок&lt;br&gt;Сдача заказа - готовый код&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="426" y="20" width="275" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="80" as="sourcePoint"/>
+                        <mxPoint x="350" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Упрощение работы:&lt;br&gt;1. Составление ТЗ совместно с менеджером, поможет избежать большего исправления ошибок&amp;nbsp;&lt;br&gt;2. Детально прописать алгоритм, чтобы исключить повторения кода и ошибок&lt;br&gt;3. Сменить менеджера или платформу для общения, ускорит процесс работы&amp;nbsp;&lt;br&gt;4. Ипользовать другую платформу, чтобы не тратить время на обучение гита заказчика.&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="180" width="360" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
